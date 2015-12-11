@@ -23,13 +23,6 @@ class Player {
             // Write an action using System.out.println()
             // To debug: System.err.println("Debug messages...");
         
-          /*  
-            if (dist1 < dist2){
-                System.out.println(enemy1);                
-            }  else {
-                System.out.println(enemy2);                
-            }
-            */
             System.out.println(dist1 < dist2 ? enemy1 : enemy2 ); 
             
         }
